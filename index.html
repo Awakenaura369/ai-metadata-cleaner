@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="monetag" content="4aa0be0b9938478f884faa53333ce5a6">
+
+<script src="https://quge5.com/88/tag.min.js" data-zone="227891" async data-cfasync="false"></script>
+ <meta name="monetag" content="4aa0be0b9938478f884faa53333ce5a6">
+  
   <meta name="google-site-verification" content="NRFuXJuXD65LVvkF_CX5Ws4dM_cooSkjPsLvqcssvtI" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,9 +44,6 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-
-  <!-- Adsterra / Monetag scripts -->
-  <script src="https://rungbeacon.com/98/b8/29/98b82946f6ef1b1c1fd59aaf5010c8c2.js"></script>
 
   <!-- EXIF.js CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/exif-js/2.3.0/exif.min.js"></script>
@@ -159,19 +159,6 @@
       padding: 6px 14px; border-radius: 100px;
     }
     .pill svg { width: 13px; height: 13px; color: var(--accent); }
-
-    /* ── Ad banner top ── */
-    .ad-banner {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 12px 20px;
-      text-align: center;
-      margin-bottom: 24px;
-      min-height: 70px;
-      display: flex; align-items: center; justify-content: center;
-    }
-    .ad-label { font-size: 10px; color: var(--muted); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 6px; }
 
     /* ── Upload card ── */
     .card {
@@ -358,15 +345,6 @@
     .btn-secondary.show { display: block; }
     .btn-secondary:hover { color: var(--text); border-color: var(--border2); }
 
-    /* ── Ad mid ── */
-    .ad-mid {
-      margin: 24px 0;
-      background: var(--surface); border: 1px solid var(--border);
-      border-radius: var(--radius); padding: 12px 16px;
-      text-align: center; min-height: 100px;
-      display: flex; flex-direction: column; align-items: center; justify-content: center;
-    }
-
     /* ── Info section ── */
     .info-card {
       background: var(--surface); border: 1px solid var(--border2);
@@ -415,15 +393,6 @@
     }
     .faq-item.open .faq-a { display: block; }
     .faq-a strong { color: var(--text); }
-
-    /* ── Ad bottom ── */
-    .ad-bottom {
-      margin-top: 32px;
-      background: var(--surface); border: 1px solid var(--border);
-      border-radius: var(--radius); padding: 12px 16px;
-      text-align: center; min-height: 90px;
-      display: flex; flex-direction: column; align-items: center; justify-content: center;
-    }
 
     /* ── Footer ── */
     footer {
@@ -508,13 +477,6 @@
     </div>
   </header>
 
-  <!-- Ad top -->
-  <div class="ad-banner fade-up-2">
-    <div class="ad-label">Advertisement</div>
-    <script async="async" data-cfasync="false" src="https://rungbeacon.com/b9f1c4e4be01549cfbd6a77edc9d91e1/invoke.js"></script>
-    <div id="container-b9f1c4e4be01549cfbd6a77edc9d91e1"></div>
-  </div>
-
   <!-- Main card -->
   <div class="card fade-up-2">
     <!-- Drop zone -->
@@ -567,13 +529,6 @@
 
       <button class="btn-secondary" id="btn-reset" onclick="resetAll()">↩ Clean more images</button>
     </div>
-  </div>
-
-  <!-- Ad mid -->
-  <div class="ad-mid fade-up-3">
-    <div class="ad-label" style="color:var(--muted);font-size:10px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px;">Advertisement</div>
-    <!-- Adsterra native / banner slot 2 — replace with your actual tag -->
-    <div id="adsterra-mid" style="width:100%;min-height:60px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:12px;">Ad</div>
   </div>
 
   <!-- What gets removed -->
@@ -672,12 +627,6 @@
         <div class="faq-a">The tool is <strong>completely free</strong> with no account required. You can process up to <strong>10 files per batch</strong> (max 20MB each) — and run as many batches as you like.</div>
       </div>
     </div>
-  </div>
-
-  <!-- Ad bottom -->
-  <div class="ad-bottom fade-up-4">
-    <div class="ad-label" style="color:var(--muted);font-size:10px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px;">Advertisement</div>
-    <div id="adsterra-bottom" style="width:100%;min-height:60px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:12px;">Ad</div>
   </div>
 
   <footer>
